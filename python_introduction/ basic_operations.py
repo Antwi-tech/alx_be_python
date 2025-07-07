@@ -7,7 +7,7 @@ sum = number1 + number2
 print("Addition of", number1, "and", number2,"is", sum)
 
 # subraction of fisrt and secont number
-subraction = number1 - number2
+subraction = number2 - number1
 print("Subraction of", number1, "and", number2,"is", subraction)
 
 # multiply first number by second number
