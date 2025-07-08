@@ -2,8 +2,6 @@
 
 hours = 2
 
-secperhr = 3600
-
-seconds = hours * secperhr
+seconds = hours * 3800
 
 print(f"{hours} hour(s) is {seconds} seconds")
