@@ -17,11 +17,11 @@ def main():
             continue
 
         if choice == 1:
-            item = input("Enter item to add: ")
+            item = input("Enter the item to add: ")
             shopping_list.append(item)
             print(f"'{item}' added to shopping list.")
         elif choice == 2:
-            item = input("Enter item to remove: ")
+            item = input("Enter the item to remove: ")
             if item not in shopping_list:
                 print("Item does not exist")
             else:
